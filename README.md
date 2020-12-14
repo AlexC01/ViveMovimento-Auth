@@ -1,4 +1,4 @@
-Before start project!!!
+Before starting the project!!!
 
 pip install djangorestframework
 pip install markdown      
