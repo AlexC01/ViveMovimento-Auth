@@ -21,9 +21,8 @@ class GoogleLogin(SocialLoginView):
 def apiOverview(request):
     api_urls = {
         'List': '/food-journal/',
-        'Detail Food': '/food-journal/<str:pk>/',
+        'Detail Food': '/food-journal-detail/<str:uuid>/',
         'Create': '/food-create/',
-        'Update': '/food-update/<str:pk>/',
     }
     return Response(api_urls)
 
